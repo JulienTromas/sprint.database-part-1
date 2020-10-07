@@ -1,1 +1,3 @@
--- Your SQL here
+DELETE FROM STUDENTS
+WHERE first_name = 'Anakin'
+RETURNING *;
